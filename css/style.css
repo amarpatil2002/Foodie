@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Mooli&family=Roboto:ital,wght@0,100;1,500;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:active,:hover,:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--primary-color);
+}
+
+button:hover{
+    background-color: #AB2C4b;
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color:#AB2C4B;
+    --secondary-color:#43121d;
+    --third-color:#f98169;
+    --white-color:#fff;
+    --text-color1:#555;
+    --text-color:#999;
+    --black-color:#000;
+    --primary-font:'Roboto', sans-serif;
+    --secondary-font:'Quicksand', sans-serif;
+}
+
+h1 , h2  {
+    color: var(--primary-color);
+    font-family: var(--secondary-color);
+    
+}
+p{
+    color: var(--secondary-color);
+    font-family: var(--secondary-color);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+/* navbar section */
+
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+}
+
+.navbar .nav-item{
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+
+.navbar .nav-link{
+    font-size: 0.9555rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+}
+
+.navbar .nav-item a{
+    font-weight: 500;
+    font-size: large;
+}
+
+.top-banner{
+    width: 100%;
+    background: url('../images/bg/newbg1.jpeg') no-repeat center;
+    background-size: cover;
+    padding: 16.87rem 0 9.652rem;
+}
+
+.counter{
+    background-color: var(--primary-color);
+}
+
+.counter h2{
+    color: var(--white-color);
+    font-family: var(--secondary-font);
+}   
+
+
+
+/* about section */
+
+#about img{
+    border-radius: 0.56rem;
+}
+
+.story{
+    
+    background-image: url(../images/bg/newbg2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* explore food section */
+
+.explore-foods .card span{
+color: red;
+}
+
+
+.testimonial-section {
+    background-color: var(--primary-color);
+}
+
+.testimonial-section .carousel-item{
+    
+    margin-top: 3rem;
+    padding: 10rem 3.145rem;
+    background-color: var(--white-color);
+    border-radius: 0.917rem;
+    text-align: center;
+}
+
+.testimonial-section .carousel-item img{
+    border-radius: 50%;
+    max-width: 5rem;
+    padding:0.3125rem;
+}
+
+.testimonial-section .carousel-item .carousel-caption p{
+
+    font-size: 1.3125rem;
+    line-height: 2.0625rem;
+    padding: 0 11% 0.625rem;
+
+}
+
+/* book food section */
+
+.bakers-food .bakers{
+    width: 100%;
+    background-image: url(../images/bg/bg-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.footer{
+    background-color: var(--primary-color);
+}
+
+.footer .footer-link{
+    font-size: 1rem;
+    color: var(--white-color);
+    padding: 0 0.875rem;
+    text-decoration: none;
+}
+
+.footer .footer-link a:hover{
+    color: gray;
+}
+
+.footer a i{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0 1rem;
+}
